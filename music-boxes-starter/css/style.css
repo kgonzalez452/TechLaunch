@@ -16,5 +16,23 @@ body{
     margin: 5px;
     width: 50px;
     border: 1px solid black;
-
+    background:#debe94;
+    width:100px;
+    height:100px;
+    transition: all 0.3s ease-out;
+      
+}
+.box{
+    background-color: #fff;
+    -webkit-animation: random 7s infinite;
+    animation: random 15s infinite;
+}
+@keyframes  random {
+   15% { background-color: red; } 
+   30% { background-color: yellow; } 
+   45% { background-color: green; } 
+   60% { background-color: blue; }
+   75% { background-color: white; } 
+   20% { background-color: rgb(0, 247, 255);} 
+   25% { background-color: rgb(14, 139, 45)}
 }

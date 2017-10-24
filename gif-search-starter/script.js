@@ -35,7 +35,7 @@ function displayManyGifs(response){
 searchForm.addEventListener('submit', function(event){
     event.preventDefault()
     if(searchInput.value ==='') return
-    
+    //This is to clear the results div
     results.innerHTML = ''
 
     getGifs(searchInput.value, 'search', displayManyGifs)
