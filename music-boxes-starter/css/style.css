@@ -23,8 +23,7 @@ body{ /* 1. css add. color */
     border: 1px solid black;
     width:100px;
     height:330px; /* 5. css add. custom height*/
-    transition: all 0.3s ease-out;
-      
+    border-radius: 15px; /*6. css add. border raidus*/
 }
 .box{ /*2. css add. interchanging background colors */
     background-color: yellow;
