@@ -1,4 +1,5 @@
-body{
+body{ /* 1. css add. color */
+    background-color: black;
     text-align: center;
 }
 
@@ -9,19 +10,22 @@ body{
     /* border: 1px solid black; */
     align-content: center;
     justify-content: center;
+    /* 3 & 4 css add. fontfamily and size*/
+    font-family: cursive;
+    font-size: 36px;
 }
 
 .box{
     height: 150px;
-    margin: 5px;
+    margin: 5px 10px 10px 5px;
     width: 50px;
     border: 1px solid black;
     width:100px;
-    height:100px;
+    height:330px; /* 5. css add. custom height*/
     transition: all 0.3s ease-out;
       
 }
-.box{
+.box{ /*2. css add. interchanging background colors */
     background-color: yellow;
     -webkit-animation: random 10s infinite;
     animation: random 30s infinite;
