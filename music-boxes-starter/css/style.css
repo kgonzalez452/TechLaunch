@@ -2,7 +2,6 @@ body{ /* 1. css add. color */
     background-color: black;
     text-align: center;
 }
-
 #instrument{
     display: flex;
     height: auto;
@@ -14,7 +13,9 @@ body{ /* 1. css add. color */
     font-family: cursive;
     font-size: 36px;
 }
-
+.box:hover{
+    
+}
 .box{
     height: 150px;
     margin: 5px 10px 10px 5px;
