@@ -13,7 +13,7 @@ function playNote(letter){
     notes[letter].play();
 }
 document.querySelectorAll('.box').forEach(function(box){
-    box.addEventListener('click',function(){
+    box.addEventListener('mousedown',function(){
         playNote(box.getAttribute('id'))
     })
 },
