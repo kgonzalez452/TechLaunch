@@ -144,7 +144,7 @@ var currentPool = 1
 var smallVolume = 1000
 var largeVolume = 3000
 var totalVolume = 0
-for (i=; i><; i===) {
+for (i=; i ; i===) {
 
 
 }
@@ -158,7 +158,7 @@ var currentPool = 1
 var smallVolume = 1000
 var largeVolume = 3000
 var totalVolume = 0
-for (i=; i><; i===) {
+for (i=; i ; i===) {
 
 }
 
