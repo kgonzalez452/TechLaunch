@@ -1,0 +1,15 @@
+#logo {
+    height: 75px;
+    width: 256px;
+    float: left;
+}
+
+ul{
+    list-style-type: none;
+}
+li{
+    float: right;
+}
+body{
+    display: block;
+}
